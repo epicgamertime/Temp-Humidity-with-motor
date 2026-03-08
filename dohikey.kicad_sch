@@ -1736,6 +1736,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:PN2222A"
 			(pin_names
 				(offset 0)
@@ -2287,6 +2370,76 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "-"
+		(exclude_from_sim no)
+		(at 179.07 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "02094234-426e-445d-99ff-e67550976bb6")
+	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 67.31 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "10458e44-c2fb-4bc9-9535-8b3eb2cf5ea6")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 179.07 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1fd47199-af0c-451f-b85f-228350ed36ca")
+	)
+	(text "-"
+		(exclude_from_sim no)
+		(at 67.056 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "41f8d3b1-94ba-415e-a099-93797c5c1f12")
+	)
+	(text "C"
+		(exclude_from_sim no)
+		(at 67.056 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6a441267-a28c-4911-adad-65ffcb6929ee")
+	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 178.816 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "769d60fc-8ffd-43dd-b20d-d38f866656a3")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 67.31 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d77db7c2-4248-474b-a31d-43b55d5ce546")
+	)
 	(junction
 		(at 157.48 20.32)
 		(diameter 0)
@@ -2333,7 +2486,11 @@
 		(at 92.71 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f5d58d41-b879-4e09-8267-0c2105304c21")
+		(uuid "f58dc8e0-e256-44d5-bd40-adfc69a6ff42")
+	)
+	(no_connect
+		(at 57.15 31.75)
+		(uuid "c74ab0f5-64c8-4e1a-8f96-0644a389fd30")
 	)
 	(wire
 		(pts
@@ -2354,16 +2511,6 @@
 			(type default)
 		)
 		(uuid "172f6770-a6ff-4900-a4a2-8e9c5614c12e")
-	)
-	(wire
-		(pts
-			(xy 92.71 39.37) (xy 92.71 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25b9ffbc-74f7-404d-957b-ae5189307f82")
 	)
 	(wire
 		(pts
@@ -2417,7 +2564,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 86.36) (xy 119.38 86.36)
+			(xy 78.74 86.36) (xy 121.92 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2487,16 +2634,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 87.63) (xy 121.92 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "533151fb-f9bd-41bd-9c55-745def419a7b")
-	)
-	(wire
-		(pts
 			(xy 99.06 54.61) (xy 106.68 54.61)
 		)
 		(stroke
@@ -2557,13 +2694,33 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 87.63) (xy 121.92 87.63)
+			(xy 121.92 86.36) (xy 121.92 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a614bac-7b95-488b-8394-53df54f395ab")
+	)
+	(wire
+		(pts
+			(xy 73.66 87.63) (xy 119.38 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6c10f187-35ae-4b34-96e1-963b47958f6e")
+	)
+	(wire
+		(pts
+			(xy 119.38 80.01) (xy 119.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8426da8b-c4c4-40d7-bece-2d310e5c78f1")
 	)
 	(wire
 		(pts
@@ -2624,16 +2781,6 @@
 			(type default)
 		)
 		(uuid "bae507ba-57e0-40dc-b9b7-b2185ba67d3d")
-	)
-	(wire
-		(pts
-			(xy 119.38 86.36) (xy 119.38 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2e69ecc-4c86-4c3f-855b-c65be03d9c74")
 	)
 	(wire
 		(pts
@@ -2737,6 +2884,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 39.37) (xy 92.71 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3778a95-2657-433f-9191-c54d7cbb63ec")
+	)
+	(wire
+		(pts
 			(xy 163.83 85.09) (xy 157.48 85.09)
 		)
 		(stroke
@@ -2754,6 +2911,134 @@
 			(type default)
 		)
 		(uuid "f95e6624-94ef-4866-9fe9-0ba0881e06e2")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 45.72 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "132d6a97-9210-4586-8e93-6bb7c02941aa")
+		(property "Reference" "H2"
+			(at 48.26 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 48.26 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 45.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 45.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/2098b05d-acf8-44b3-af9b-d53b3d67b5cb"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 45.72 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14e2c577-75f3-48fa-85e5-13331df6681e")
+		(property "Reference" "H3"
+			(at 48.26 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 48.26 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 45.72 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 45.72 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "dohikey"
+				(path "/2098b05d-acf8-44b3-af9b-d53b3d67b5cb"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -2960,6 +3245,70 @@
 			(project ""
 				(path "/2098b05d-acf8-44b3-af9b-d53b3d67b5cb"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 45.72 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50a224ef-abd1-488f-b6e0-a48b9590f97b")
+		(property "Reference" "H1"
+			(at 48.26 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 48.26 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 45.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 45.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/2098b05d-acf8-44b3-af9b-d53b3d67b5cb"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -3396,13 +3745,13 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:PN2222A")
-		(at 99.06 41.91 90)
+		(at 99.06 41.91 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c5c2748d-701c-4381-8ae2-eb015196a158")
 		(property "Reference" "Q1"
 			(at 99.06 33.02 90)
@@ -3421,7 +3770,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 100.965 36.83 0)
+			(at 97.155 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
