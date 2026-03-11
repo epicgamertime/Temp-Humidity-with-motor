@@ -1,0 +1,7 @@
+1 x Arduino nano: https://www.aliexpress.us/item/3256808022879958.html?gatewayAdapt=glo2usa
+1 x PN2222A Transistor
+1 x 1N4001 Diode
+1 x 270 ohm resistor
+1 x DHT11 Temperature and Humidity sensor: https://www.aliexpress.us/item/3256808767116188.html?spm=a2g0o.productlist.main.8.7842604azRafUl&aem_p4p_detail=202603111328478885441328031800000069628&algo_pvid=2b5242fa-076a-4e23-be6b-c4b7e26d66a8&algo_exp_id=2b5242fa-076a-4e23-be6b-c4b7e26d66a8-7&pdp_ext_f=%7B%22order%22%3A%2276%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%211.69%211.69%21%21%2111.54%2111.54%21%40210311a017732609274508513ebfbc%2112000047346503744%21sea%21US%212508004374%21X%211%210%21n_tag%3A-29919%3Bd%3Af41c7dc8%3Bm03_new_user%3A-29895&curPageLogUid=4LihSQtcFpwr&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008953430940%7C_p_origin_prod%3A&search_p4p_id=202603111328478885441328031800000069628_2
+1 x Adafruit 0.56" 4-Digit 7-Segment Display w/I2C Backpack: https://www.adafruit.com/product/879
+1 x Custom PCB (I purchased mine on PCBWay)
